@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue; /* Light blue background for the page */
+  text-align: center;          /* Center all text horizontally */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Use a clean, readable font */
+  margin: 0;                   /* Remove default margin for full background */
+  min-height: 100vh;           /* Ensure body takes full viewport height */
+  display: flex;               /* Use flex to center content */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+}
+
+/* Style the card container to look like a profile card */
+.card {
+  background: #fff;                /* White background for contrast */
+  border: 1px solid #ccc;          /* Light gray border around the card */
+  border-radius: 12px;             /* Rounded corners for a softer look */
+  padding: 32px 24px;              /* Space inside the card (top/bottom, left/right) */
+  max-width: 350px;                /* Limit the card's width */
+  margin: 48px auto;               /* Center the card and add space above/below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for paragraph text inside the card */
+p {
+  font-family: Arial, sans-serif;  /* Use Arial font for paragraphs */
+  font-size: 18px;                 /* Make the text a bit larger */
+  line-height: 1.6;                /* Add space between lines for readability */
+}
+
+.card ul {
+  list-style: none;         /* Remove bullet points */
+  padding: 0;               /* Remove default padding */
+  margin: 18px 0 0 0;       /* Add spacing above the list */
+}
+
+.card ul li {
+  margin: 10px 0;           /* Add vertical spacing between list items */
+}
+
+.card ul a {
+  text-decoration: none;    /* Remove underline from links */
+  color: #0074cc;           /* Add a blue color for links */
+  font-weight: 500;
+}
+
+.card ul a:hover {
+  text-decoration: underline;
+}
